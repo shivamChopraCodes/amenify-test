@@ -1,12 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import UserGreet from './Components/UserGreet';
+import ServicesDisplayed from './Components/ServicesDisplayed';
+import Testimonial from './Components/Testimonial';
+import MenuSection from './Components/MenuSection';
+import Carousel from './Components/Carousel';
+import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className="App">
-  <h1 className="metropolis text-3xl font-medium underline ">
-      Good morning, Kaylie
-    </h1>
+    <div className='metropolis w-full max-w-screen-md flex-col-center mx-auto px-4'>
+      <UserGreet />
+      <ServicesDisplayed />
+      <Testimonial />
+      <MenuSection />
+      <Carousel />
+      <Footer />
     </div>
   );
 }

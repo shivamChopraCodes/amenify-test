@@ -76,5 +76,24 @@
 
 .metropolis {
   font-family: 'Metropolis';
+}
 
+.flex-col-center {
+  @apply flex flex-col justify-center items-center;
+}
+.flex-row-center {
+  @apply flex justify-center items-center;
+}
+.dark-bg-gradient {
+  position: absolute;
+  background: linear-gradient(180deg, rgba(0, 18, 26, 0) 0%, rgba(0, 18, 26, 0.5) 100%);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+}
+
+.bg-gradient-white {
+  background: linear-gradient(90deg, #F9F9F9 76.56%, #FDFCFF 100%);
 }
