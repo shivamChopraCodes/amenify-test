@@ -3,17 +3,17 @@ const MenuSection = () => {
         <div className='w-full flex-col-center my-2 text-primary' >
             <div className='w-full flex-col-center mb-7 text-primary' >
                 <img className='w-full' src='/images/lunch-menu-bg.png' alt={'Lunch bg'} />
-                <section className='w-full bg-gradient-white -mt-8 flex-col-center py-4'>
+                <section className='w-full bg-gradient-white -mt-8 md:-mt-16 flex-col-center py-4'>
                     <p className='font-normal text-base tracking-wider' >Treat yourself.</p>
                     <p className='font-normal text-sm tracking-wider text-center w-3/5 my-4' >Chef-prepared delicious meals handcrafted and delivered.</p>
                     <button className='bg-[#424242] text-sm font-normal rounded-2xl text-white py-1 px-2 tracking-wide mb-2' >See the Lunch menu</button>
                 </section>
             </div>
             <div className='w-full flex-col-center mt-7 text-primary' >
-                <img src='/images/dinner-menu.png' alt={'Dinner bg'} width={'167px'} />
+                <img className='w-1/2' src='/images/dinner-menu.png' alt={'Dinner bg'}  />
                 <section className='w-full flex-col-center py-4'>
-                    <p className='font-normal text-base tracking-wider' >Dinner has never been easier.</p>
-                    <p className='font-normal text-sm tracking-wider text-center w-3/5 my-4' >Chef-prepared delicious meals handcrafted and delivered.</p>
+                    <p className='font-normal text-base tracking-wider text-center' >Dinner has never been easier.</p>
+                    <p className='font-normal text-sm tracking-wider text-center px-8 my-4' >Chef-prepared delicious meals handcrafted and delivered.</p>
                     <button className='bg-[#424242] text-sm font-normal rounded-2xl text-white py-1 px-2 tracking-wide' >See the Dinner menu</button>
                 </section>
             </div>

@@ -15,7 +15,7 @@ const ServicesDisplayed = () => {
                 <div className='dark-bg-gradient' />
             </div>
             <div className='flex-col-center mt-10 text-primary' >
-                <img src='/images/broom.png' alt={'Broom.png'} width={'122px'} />
+                <img className='w-1/3' src='/images/broom.png' alt={'Broom.png'}  />
                 <p className='font-normal text-base tracking-wide ' >We leave a little sparkle.</p>
                 <p className='font-normal text-sm tracking-wide text-center w-2/3 my-4' >Members enjoy special pricing so leave the chores to us.</p>
                 <button className='bg-[#A8D1D0] font-medium text-sm tracking-wide border rounded-3xl py-1 px-2' >

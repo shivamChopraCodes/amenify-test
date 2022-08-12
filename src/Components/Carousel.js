@@ -8,7 +8,7 @@ const Carousel = () => {
                 }
             </div>
         </div>
-            <section className='flex flex-col items-start text-primary mt-4' >
+            <section className='flex flex-col items-start text-primary mt-4 w-full' >
               <p className='font-normal text-base tracking-wider' >Take N Bake</p>
               <p className='font-normal text-sm tracking-wider pr-7 my-2' >Hosting a get-together? We got you. Check out our chef-prepared family-style meals.</p>
               <button className='bg-[#424242] font-normal text-sm rounded-2xl text-white py-1 px-2 tracking-wide my-2' >See the menu</button>
