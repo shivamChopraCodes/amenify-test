@@ -7,27 +7,6 @@
   font-family: 'Metropolis';
   font-style: normal;
   font-display: swap;
-  font-weight: 100;
-  src: local('Metropolis Extra Light'), url('../public/fonts/Metropolis-ExtraLight.otf');
-}
-@font-face {
-  font-family: 'Metropolis';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 200;
-  src: local('Metropolis Thin'), url('../public/fonts/Metropolis-Thin.otf');
-}
-@font-face {
-  font-family: 'Metropolis';
-  font-style: normal;
-  font-display: swap;
-  font-weight: 300;
-  src: local('Metropolis Light'), url('../public/fonts/Metropolis-Light.otf');
-}
-@font-face {
-  font-family: 'Metropolis';
-  font-style: normal;
-  font-display: swap;
   font-weight: 400;
   src: local('Metropolis Regular'), url('../public/fonts/Metropolis-Regular.otf');
 }
@@ -42,13 +21,6 @@
   font-family: 'Metropolis';
   font-style: normal;
   font-display: swap;
-  font-weight: 600;
-  src: local('Metropolis Semi Bold'), url('../public/fonts/Metropolis-SemiBold.otf');
-}
-@font-face {
-  font-family: 'Metropolis';
-  font-style: normal;
-  font-display: swap;
   font-weight: 700;
   src: local('Metropolis Bold'), url('../public/fonts/Metropolis-Bold.otf');
 }
@@ -56,22 +28,8 @@
   font-family: 'Metropolis';
   font-style: normal;
   font-display: swap;
-  font-weight: 800;
-  src: local('Metropolis Extra Bold'), url('../public/fonts/Metropolis-ExtraBold.otf');
-}
-@font-face {
-  font-family: 'Metropolis';
-  font-style: normal;
-  font-display: swap;
   font-weight: 900;
   src: local('Metropolis Black'), url('../public/fonts/Metropolis-Black.otf');
-}
-@font-face {
-  font-family: 'Metropolis'; 
-  font-style: italic;
-  font-display: swap;
-  font-weight: 900;
-  src: local('Metropolis Black Italic'), url('../public/fonts/Metropolis-BlackItalic.otf');
 }
 
 .metropolis {
