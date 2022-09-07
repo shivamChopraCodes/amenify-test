@@ -1,13 +1,16 @@
 import { useSelector } from 'react-redux';
+import { Route, Routes } from 'react-router';
 import './App.css';
+import Homepage from './Components/Homepage';
 
 function App() {
-  const name = useSelector(state=>state.name)
+  const name = useSelector(state => state.name)
   console.log(name);
   return (
-    <div className='metropolis w-full max-w-screen-sm flex-col-center mx-auto px-4 pb-20 relative '>
-      <p className='uppercase text-xl ' >hi</p>
-    </div>
+    <Routes>
+      <Route path='/' element={<Homepage />} />
+
+    </Routes>
   );
 }
 
