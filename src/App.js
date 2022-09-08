@@ -1,16 +1,14 @@
 import { useSelector } from 'react-redux';
-import { Route, Routes } from 'react-router';
 import './App.css';
+import Board from './Components/Board';
 import Homepage from './Components/Homepage';
 
 function App() {
   const name = useSelector(state => state.name)
-  console.log(name);
   return (
-    <Routes>
-      <Route path='/' element={<Homepage />} />
-
-    </Routes>
+    <div className='App flex w-full h-full ' >
+      <Board />
+    </div>
   );
 }
 
